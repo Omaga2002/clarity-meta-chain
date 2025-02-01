@@ -4,6 +4,10 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.marketplace]
+path = "contracts/marketplace.clar"
+depends_on = []
+
 [contracts.vr-asset]
 path = "contracts/vr-asset.clar"
 depends_on = []
